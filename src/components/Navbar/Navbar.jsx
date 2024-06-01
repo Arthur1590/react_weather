@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import s from './Navbar.module.scss'
-import { logo, kaplya } from "../../utils/exportImg"
+import { logo, kaplya } from "../../utils/ExportImg.js"
 import { useDispatch } from "react-redux"
 import { getLanLon } from "../../store/weather/weatherSlice"
 import { toggleTheme } from "../../store/theme/themeSlice"

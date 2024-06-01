@@ -1,10 +1,10 @@
 import React from 'react'
-import s from './Current.module.scss'
+import s from './current.module.scss'
 import { useSelector } from 'react-redux'
 import { weatherSelector } from "../../store/weather/weatherSlice"
-import { getTime } from "../../utils/getTime"
-import { weatherName } from "../../utils/getImg"
-import { headerBg,davlenie,osadki,wind,temp } from "../../utils/exportImg"
+import { getTime } from "../../utils/GetTime.js"
+import { weatherName } from "../../utils/GetImg.js"
+import { headerBg,davlenie,osadki,wind,temp } from "../../utils/ExportImg.js"
 
 const Current = () => {
     

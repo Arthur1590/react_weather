@@ -1,4 +1,4 @@
-import { cloud,minicloud,sun,minirain,rain,sunrain } from './exportImg'
+import { cloud,minicloud,sun,minirain,rain,sunrain } from './ExportImg.js'
 
 export const  weatherName = {
     'дымка': minicloud,

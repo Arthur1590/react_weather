@@ -1,6 +1,6 @@
 import React from 'react'
-import { getDate } from "../../utils/getDate"
-import { weatherName } from "../../utils/getImg"
+import { getDate } from "../../utils/GetDate.js"
+import { weatherName } from "../../utils/GetImg.js"
 import s from './Daily.module.scss'
 
 const Day = ({day, i}) => {
