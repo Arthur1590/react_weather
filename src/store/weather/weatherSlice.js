@@ -11,7 +11,7 @@ export const getLanLon = createAsyncThunk(
 	async (city, { getState, dispatch }) => {
 		let { apiKey } = getState().weather
 		let res = await axios.get(
-			`http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`
+			`https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}` // Изменение HTTP на HTTPS
 		)
 		dispatch(getWeather(res.data[0]))
 	}
